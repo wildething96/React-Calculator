@@ -24,15 +24,18 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.carouselFlex {
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img {
+  width: 95%;
+  border: 5px solid darkslategray;
+  border-radius: 20px;
+  padding: 0.2rem;
 }
+
+.picture {
+  padding: 0.5rem;
+}
+
